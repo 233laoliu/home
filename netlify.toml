@@ -21,7 +21,7 @@
   VITE_SONG_SERVER = "netease"
   VITE_SONG_TYPE = "playlist"
   VITE_SONG_ID = "9379831714"
-
+  VITE_SITE_ICP = "萌ICP备20250283号"
 [[redirects]]
   from = "/*"
   to = "/index.html"
