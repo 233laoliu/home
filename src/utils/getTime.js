@@ -84,7 +84,7 @@ export const helloInit = () => {
     hello = "下午好";
   } else if (hour < 19) {
     hello = "傍晚好";
-  } else if (hour < 22) {
+  } else if (hour < 23) {
     hello = "晚上好";
   } else {
     hello = "夜深了";
