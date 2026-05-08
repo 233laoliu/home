@@ -38,6 +38,7 @@ import { helloInit, checkDays } from "@/utils/getTime.js";
 import { HamburgerButton, CloseSmall } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
 import { Icon } from "@vicons/utils";
+import { inject } from "@vercel/analytics";
 import Loading from "@/components/Loading.vue";
 import MainLeft from "@/views/Main/Left.vue";
 import MainRight from "@/views/Main/Right.vue";
@@ -77,6 +78,9 @@ watch(
 );
 
 onMounted(() => {
+  // Vercel Web Analytics
+  inject();
+
   // 自定义鼠标
   cursorInit();
 
