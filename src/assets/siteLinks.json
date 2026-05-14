@@ -2,7 +2,7 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "blog.233laoliu.top"
+    "link": "https://blog.233laoliu.top"
   },
   {
     "icon": "Cloud",
@@ -12,7 +12,7 @@
   {
     "icon": "CompactDisc",
     "name": "音乐",
-    "link": "splayer.233laoliu.top"
+    "link": "https://splayer.233laoliu.top"
   },
   {
     "icon": "Compass",
@@ -22,16 +22,6 @@
   {
     "icon": "Book",
     "name": "网址集",
-    "link": ""
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": ""
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
     "link": ""
   }
 ]
